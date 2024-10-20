@@ -1,20 +1,20 @@
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_title = "Morditech ERP"
+app_publisher = "Morditech Technologies"
+app_description = """Your batteries-included ERP for all your business needs."""
 app_icon = "fa fa-th"
-app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_color = "#ffffff"
+app_email = "lusayohendy@gmail.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+source_link = "https://github.com/lusayo-nyondo/morditech-erp"
+app_logo_url = "/assets/erpnext/images/morditech/morditech_logo_nobg.png"
 app_home = "/app/home"
 
 add_to_apps_screen = [
 	{
 		"name": "erpnext",
-		"logo": "/assets/erpnext/images/erpnext-logo-blue.png",
-		"title": "ERPNext",
+		"logo": "/assets/erpnext/images/morditech/morditech_logo_nobg.png",
+		"title": "Morditech ERP",
 		"route": "/app/home",
 		"has_permission": "erpnext.check_app_permission",
 	}
@@ -101,8 +101,8 @@ calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo"]
 website_generators = ["BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"favicon": "/assets/erpnext/images/morditech/morditech_logo.jpeg",
+	"splash_image": "/assets/erpnext/images/morditech/morditech_logo.jpeg",
 }
 
 # nosemgrep
